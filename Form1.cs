@@ -12,8 +12,8 @@ namespace petrik_2017_14s_kozos
 {
     public partial class Form1 : Form
     {
-        private readonly string defaultText = "HGabor";
-        private readonly Color defaultColor = Color.Aqua;
+        private readonly string defaultText = "HGabor 2";
+        private readonly Color defaultColor = Color.Brown;
 
         public Form1()
         {
