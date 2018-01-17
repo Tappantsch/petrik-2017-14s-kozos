@@ -12,8 +12,8 @@ namespace petrik_2017_14s_kozos
 {
     public partial class Form1 : Form
     {
-        private readonly string defaultText = "HGabor";
-        private readonly Color defaultColor = Color.Aqua;
+        private readonly string defaultText = "No se masturben";
+        private readonly Color defaultColor = Color.Beige;
 
         public Form1()
         {
@@ -27,7 +27,7 @@ namespace petrik_2017_14s_kozos
 
             var colorButton = new Button();
             colorButton.BackColor = Control.DefaultBackColor;
-            colorButton.Text = "Choose background";
+            colorButton.Text = "csúz ö bekgránd";
             colorButton.Width = 150;
             colorButton.Click += (sender, e) => {
                 var colorDialog = new ColorDialog();
